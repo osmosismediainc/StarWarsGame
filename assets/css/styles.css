@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('../webfonts/distant_galaxy/distgrg_-webfont.woff2') format('woff2'),
+         url('../webfonts/distant_galaxy/distgrg_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: url(../images/sw_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(255,255,255,0.0);
+    font-family: 'distant_galaxyregular';
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.header {
+    margin-top: 15px;
+    padding: 5%;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid black;
+}
+
+.container {
+    background-color: rgba(255,255,255,0.0);
+}
+
+.sw-container {
+    background-color: rgba(255, 255, 255, 0.55);
+    margin-top: 10px;
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.sw-game-area {
+    background-color: rgba(255,255,255,0.25);
+    padding: 1% 5% 1% 5%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.headline {
+    margin-bottom: 2px;
+}
+
+.character {
+    border: 5px solid black;
+    margin: 1px;
+    width: 200px;
+    font-size: .7em;
+    background-color: white;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.characterImage {
+    width: 150px;
+}
+
+.currentInstruction {
+    text-align: center;
+}
+
+.enemy {
+    background-color: red;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.attackButton {
+    background: url(../images/attack_button_up.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 250px;
+    height: 115px;
+}
+
+.attackButton:active {
+    background: url(../images/attack_button_down.png) no-repeat;
+}
+
+#graveyard {
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid black;
+    margin-left: 0px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    z-index: 99;
+    width: 200px;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}

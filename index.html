@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Star Wars Game</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- Jquery SLIM & MINIFIED-->
+    <script   src="https://code.jquery.com/jquery-3.4.1.slim.min.js"   integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="   crossorigin="anonymous"></script>
+    <!-- Game JavaScript -->
+    <script src="assets/js/starwars.js"></script>
+</body>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="graveyard">
+            <div class="col text-center">
+                <h3 class="text-center">
+                    GRAVEYARD </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 sw-container ">
+                <img src="assets/images/sw_headline.svg" class="headline" width="100%" />
+                <div class="col-md-12 sw-game-area">
+
+                    <div id="characterArea" class="row mb-5">
+                        <div class="col text-center character" id="obi-wan-kenobi">
+                            <h5>Obi Wan Kenobi</h5>
+                            <img src="assets/images/obi.jpg" class="characterImage">
+                            <h5 id="obiScore">120</h5>
+                        </div>
+                        <div class="col text-center character" id="luke-skywalker">
+                            <h5>Luke Skywalker</h5>
+                            <img src="assets/images/luke.jpg" class="characterImage">
+                            <h5 id="walkerScore">100</h5>
+                        </div>
+                        <div class="col text-center character" id="darth-sidious">
+                            <h5>Darth Sidious</h5>
+                            <img src="assets/images/sideous.jpg" class="characterImage">
+                            <h5 id="sidiousScore">150</h5>
+                        </div>
+                        <div class="col text-center character" id="darth-maul">
+                            <h5>Darth Maul</h5>
+                            <img src="assets/images/maul.jpg" class="characterImage">
+                            <h5 id="maulScore">100</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Three Column Interaction Area-->
+                        <div id="playerPosition" class="col-md-4 float-left">
+                            <div class="col text-center character" id="obi-wan-kenobi">
+                                <h5>Obi Wan Kenobi</h5>
+                                <img src="assets/images/obi.jpg" class="characterImage">
+                                <h5 id="obiScore">120</h5>
+                            </div>
+                        </div>
+                        <div id="playerInstructions" class="col-md-4 text-center">
+                            <h5>Choose a character to use</h5>
+                            <h5>Choose an opponent</h5>
+                            <h5>Choose a character to use</h5>
+                            <input class="attackButton" type="submit" value="">
+
+
+
+
+
+                        </div>
+                        <div id="opponentPosition" class="col-md-4 float-right m-0">
+                            <div class="col text-center character" id="obi-wan-kenobi">
+                                <h5>Obi Wan Kenobi</h5>
+                                <img src="assets/images/obi.jpg" class="characterImage">
+                                <h5 id="obiScore">120</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="enemyPosition">
+                        <div class="col text-center character enemy" id="obi-wan-kenobi">
+                            <h5>Obi Wan Kenobi</h5>
+                            <img src="assets/images/obi.jpg" class="characterImage">
+                            <h5 id="obiScore">120</h5>
+                        </div>
+                        <div class="col text-center character enemy" id="luke-skywalker">
+                            <h5>Luke Skywalker</h5>
+                            <img src="assets/images/luke.jpg" class="characterImage">
+                            <h5 id="walkerScore">100</h5>
+                        </div>
+                        <div class="col text-center character enemy" id="darth-sidious">
+                            <h5>Darth Sidious</h5>
+                            <img src="assets/images/sideous.jpg" class="characterImage">
+                            <h5 id="sidiousScore">150</h5>
+                        </div>
+                        <div class="col text-center character enemy" id="darth-maul">
+                            <h5>Darth Maul</h5>
+                            <img src="assets/images/maul.jpg" class="characterImage">
+                            <h5 id="maulScore">100</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
